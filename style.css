@@ -129,8 +129,7 @@ body {
 .weather {
   display: none;
 }
-
-.error {
+.error, .no-value-error {
     text-align: left;
     /* font-size: 14px; */
     margin-left: 10px ;
@@ -138,7 +137,7 @@ body {
     display: none;
     
 }
-.error p {
+.error p , .no-value-error p {
     text-align: center;
     color: rgb(2, 64, 67);
     opacity: 1;
@@ -247,7 +246,7 @@ body {
     #p2 {
         font-size: 18px;
     }  
-    .error {
+    .error, .no-value-error {
         text-align: left;
         font-size: 14px;
         margin-left: 10px ;
